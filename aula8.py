@@ -1,8 +1,21 @@
-ingresso_show_paramore = input('Ingresso com desconto? sim/não')
+idade  =  int(input('idade: '))
 
-
-if ingresso_show_paramore =='sim' or ingresso_show_paramore =='não':
-    print('Acesso autorizado!')
+if idade  <=12:
+    print('Criança')
+elif idade >12 and idade <=14:
+    print('pré - Adolescente')
+elif idade >=15 and idade <=17:
+    print('Adolescente')
+elif idade >=18 and idade <= 25:
+    print('Jovem')
+elif idade>25 and idade <=64:
+    print('Adulto')
 else:
-    print('Acesso não autorizado')
+    print('Idoso(a)')
     
+    
+
+
+
+
+
